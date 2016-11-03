@@ -11,6 +11,7 @@ Then
 <code>npm install</code>
 
 To run the app on localhost:8081
+
 <code>gulp run</code>
 
 <h2>Docker</h2>
