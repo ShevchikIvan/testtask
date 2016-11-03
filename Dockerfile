@@ -14,4 +14,6 @@ RUN npm install
 
 RUN ls -la
 
+EXPOSE 8081
+
 CMD ["gulp", "run"]
