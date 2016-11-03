@@ -5,8 +5,9 @@ RUN apt-get update && apt-get install -y \
 
 RUN npm install -g gulp
 
-WORKDIR /var/www
 ADD . /var/www
+WORKDIR /var/www
+
 
 RUN npm install
 
