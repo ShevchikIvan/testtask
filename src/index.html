@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-ng-app="testApp" lang="en">
+<head>
+    <title>Test Task</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/node_modules/angular-material/angular-material.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<div data-ui-view>
+
+</div>
+
+<script>// <![CDATA[
+(function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/client:plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+// ]]></script>
+<script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+
+<script src="/node_modules/angular/angular.js"></script>
+<script src="/node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="/node_modules/ng-infinite-scroll/build/ng-infinite-scroll.js"></script>
+<script src="/node_modules/angular-aria/angular-aria.js"></script>
+<script src="/node_modules/angular-animate/angular-animate.js"></script>
+<script src="/node_modules/angular-material/angular-material.js"></script>
+
+<script src="/src/app/app.js"></script>
+<script src="/src/app/app.config.js"></script>
+
+<script src="/src/main/main.module.js"></script>
+<script src="/src/main/main.controller.js"></script>
+<script src="/src/main/services/emails.service.js"></script>
+<script src="/src/main/services/google-api.service.js"></script>
+<script src="/src/main/views/homepage/homepage.controller.js"></script>
+<script src="/src/main/views/homepage/homepage.controller.js"></script>
+<script src="/src/main/components/email/email.component.js"></script>
+<script src="/src/main/components/email-list/email-list.component.js"></script>
+</body>
+</html>

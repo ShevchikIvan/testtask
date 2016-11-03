@@ -1,0 +1,12 @@
+version: '2'
+services:
+  node2:
+    build: .
+    ports:
+      - "8081:8081"
+      - "35729:35729"
+    volumes:
+      - "./:/var/www"
+    restart: always
+volumes:
+  db: {}

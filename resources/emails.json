@@ -1,0 +1,64 @@
+{
+  "emails": [
+    {
+      "title": "Title 1",
+      "description": "Description of the mail1",
+      "text": "Mail 1, text of the mail, text of the mail, text of the mail, text of the mail, text of the mail. Text of the mail, text of the mail, text of the mail, text of the mail.",
+      "date": 1477907329897
+    },
+    {
+      "title": "Title 2",
+      "description": "Description of the mail1",
+      "text": "Mail 1, text of the mail, text of the mail, text of the mail, text of the mail, text of the mail. Text of the mail, text of the mail, text of the mail, text of the mail.",
+      "date": 1477907329897
+    },
+    {
+      "title": "Title 3",
+      "description": "Description of the mail1",
+      "text": "Mail 1, text of the mail, text of the mail, text of the mail, text of the mail, text of the mail. Text of the mail, text of the mail, text of the mail, text of the mail.",
+      "date": 1477907329897
+    },
+    {
+      "title": "Title 4",
+      "description": "Description of the mail1",
+      "text": "Mail 1, text of the mail, text of the mail, text of the mail, text of the mail, text of the mail. Text of the mail, text of the mail, text of the mail, text of the mail.",
+      "date": 1477907329897
+    },
+    {
+      "title": "Title 5",
+      "description": "Description of the mail1",
+      "text": "Mail 1, text of the mail, text of the mail, text of the mail, text of the mail, text of the mail. Text of the mail, text of the mail, text of the mail, text of the mail.",
+      "date": 1477907329897
+    },
+    {
+      "title": "Title 6",
+      "description": "Description of the mail1",
+      "text": "Mail 1, text of the mail, text of the mail, text of the mail, text of the mail, text of the mail. Text of the mail, text of the mail, text of the mail, text of the mail.",
+      "date": 1477900000000
+    },
+    {
+      "title": "Title 7",
+      "description": "Description of the mail1",
+      "text": "Mail 1, text of the mail, text of the mail, text of the mail, text of the mail, text of the mail. Text of the mail, text of the mail, text of the mail, text of the mail.",
+      "date": 1477900000000
+    },
+    {
+      "title": "Title 8",
+      "description": "Description of the mail1",
+      "text": "Mail 1, text of the mail, text of the mail, text of the mail, text of the mail, text of the mail. Text of the mail, text of the mail, text of the mail, text of the mail.",
+      "date": 1477900000000
+    },
+    {
+      "title": "Title 9",
+      "description": "Description of the mail1",
+      "text": "Mail 1, text of the mail, text of the mail, text of the mail, text of the mail, text of the mail. Text of the mail, text of the mail, text of the mail, text of the mail.",
+      "date": 1477900000000
+    },
+    {
+      "title": "Title 10",
+      "description": "Description of the mail1",
+      "text": "Mail 1, text of the mail, text of the mail, text of the mail, text of the mail, text of the mail. Text of the mail, text of the mail, text of the mail, text of the mail.",
+      "date": 1477900000000
+    }
+  ]
+}

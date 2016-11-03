@@ -1,0 +1,5 @@
+<md-list flex>
+    <md-list-item class="md-3-line" ng-repeat="email in $ctrl.emails | orderBy : '-internalDate'" ng-click="showEmailDetails($event, email)">
+        <email email="email" flex="100"></email>
+    </md-list-item>
+</md-list>

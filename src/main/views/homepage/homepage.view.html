@@ -1,0 +1,33 @@
+<div ng-cloak layout-gt-sm="row" layout="column">
+
+    <div flex-gt-sm="100" flex>
+
+        <md-toolbar layout="row" class="md-hue-3 fixed-header">
+            <div class="md-toolbar-tools">
+                <span><h1>Gmail Test Inbox</h1></span>
+                <span flex></span>
+                <!--<md-button>-->
+                <span  data-ng-show="!signedIn">
+                    <span id="googleSignIn">
+                        <span id="signInButton">
+                        </span>
+                    </span>
+                </span>
+                <md-button class="md-raised" data-ng-show="signedIn && userInfo" data-ng-click="logout()">
+                    <strong>Logout: {{ userInfo.displayName ? userInfo.displayName : (userInfo.name.givenName) }}</strong>
+                </md-button>
+                <!--</md-button>-->
+            </div>
+        </md-toolbar>
+        <div layout="column" class="content"  flex layout-fill>
+            <h2 data-ng-show="!signedIn" class="title">Please Log In to See Inbox</h2>
+            <md-content infinite-scroll="fetchEmails()"
+                        infinite-scroll-immediate-check="false"
+                        infinite-scroll-disabled="!signedIn && !pageToken">
+                <email-list emails="emails"></email-list>
+            </md-content>
+        </div>
+
+    </div>
+
+</div>

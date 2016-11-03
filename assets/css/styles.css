@@ -1,0 +1,11 @@
+.fixed-header {
+    position: fixed;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.title {
+    text-align: center;
+}
