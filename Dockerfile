@@ -7,7 +7,7 @@ RUN npm install -g gulp
 
 ADD . /var/www
 WORKDIR /var/www
-
+COPY package.json /usr/src/app/
 
 RUN npm install
 
